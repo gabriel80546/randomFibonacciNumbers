@@ -8,7 +8,6 @@ int	ft_print_c(char c) {
 	return (1);
 }
 
-
 int main() {
     int r;
     int i;
