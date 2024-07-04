@@ -7,7 +7,8 @@ int fib(int n, int sinal);
 int main() {
 
     srand(time(NULL));
-	for(int i = 0; i < 50; i++) {
+	for(int i = 0; i < 40; i++) {
+		// system("date");
 		printf("fib(%i) = %i\n", i, fib(i, (rand() % 2)));
 	}
 	return 0;
